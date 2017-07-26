@@ -1,0 +1,14 @@
+odoo:
+  url: https://my-odoo.com
+  db: mydb
+  user: admin
+  password: secret
+reports:
+  invoice:
+    watch:
+      layout_header.xml: 1929
+      report_invoice_document.xml: 1997
+      style.xml: 1927
+    generate:
+      report_name: 'account.report_invoice'
+      object_id: 240586
